@@ -1,1 +1,5 @@
 ☐ Get the Data
+    ☐ Had to turn the data into an interpolated string
+    ☐ Also saved it into a variable within an exported (default) JS file/module
+    ☐ The data properly shows up in both consoles
+    ☐ I'd LOVE to be doing all of this with TDD
