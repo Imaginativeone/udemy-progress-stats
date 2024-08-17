@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Recommended Extensions
+
+https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+
+https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus
+
 ## Getting Started
 
 First, run the development server:
