@@ -6,6 +6,8 @@ https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 
 https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus
 
+https://shadcn-extension.vercel.app/components
+
 ## Getting Started
 
 First, run the development server:
