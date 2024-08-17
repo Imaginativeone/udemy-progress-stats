@@ -8,6 +8,8 @@ https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-
 
 https://shadcn-extension.vercel.app/components
 
+https://github.com/BelkacemYerfa/shadcn-extension/issues/75
+
 ## Getting Started
 
 First, run the development server:
