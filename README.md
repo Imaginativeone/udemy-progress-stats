@@ -6,6 +6,12 @@ https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 
 https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus
 
+https://shadcn-extension.vercel.app/components
+
+https://github.com/BelkacemYerfa/shadcn-extension/issues/75
+
+https://github.com/brimdata/react-arborist?tab=readme-ov-f
+
 ## Getting Started
 
 First, run the development server:
