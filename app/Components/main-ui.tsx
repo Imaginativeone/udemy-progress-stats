@@ -1,25 +1,20 @@
-'use client'
+"use client";
 
-const MainUI = ({data}: any) => {
+const MainUI = ({ data }: any) => {
+  console.log("data", data);
 
-    console.log('data', data)
+  const dataArray = data.split("\n");
 
-    const dataArray = data.split('\n')
+  console.log("dataArray", dataArray);
 
-    console.log('dataArray', dataArray)
+  return (
+    <>
+      <h1>Main UI</h1>
+      {dataArray.map((line: any, index: any) => {
+        return <div key={index}>{line}</div>;
+      })}
+    </>
+  );
+};
 
-    return (
-        <>
-            <h1>Main UI</h1>
-            {
-                dataArray.map((line:any) => {
-                    return (
-                        <div>{ line }</div>
-                    )
-                })
-            }
-        </>
-    )
-}
-
-export default MainUI
+export default MainUI;
