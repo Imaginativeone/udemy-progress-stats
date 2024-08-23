@@ -1,4 +1,4 @@
-const data = 
+const courseData = 
 [
   { id: "C0S00V000", name: "The Complete 2024 Web Development Bootcamp", children: 
     [
@@ -99,7 +99,7 @@ const data =
   },
 ]
 
-export default data
+export default courseData
 
 //   Section 04: Multi-Page Websites
 //     025. Computer File Paths | 19min

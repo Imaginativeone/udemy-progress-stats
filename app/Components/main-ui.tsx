@@ -1,8 +1,8 @@
 "use client";
 
 import { Tree } from 'react-arborist'
-
 import { convertText2Objects } from '@/app/data-functions/data-functions'
+import courseData from '@/app/data/web-dev-bootcamp-objects'
 
 convertText2Objects()
 
@@ -34,6 +34,7 @@ const MainUI = () => {
     <>
       <h1>Main UI</h1>
       {/* <Tree initialData={data} initialOpenState={false}  width={1000}/> */}
+      <Tree initialData={courseData} initialOpenState={false}  width={1000}/>
       {/* {dataArray.map((line: any, index: any) => {
         return <div key={index}>{line}</div>;
       })} */}
