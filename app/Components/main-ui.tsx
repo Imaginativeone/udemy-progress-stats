@@ -2,7 +2,9 @@
 
 import { Tree } from 'react-arborist'
 
-import data from '@/app/data/web-dev-bootcamp-objects'
+import { convertText2Objects } from '@/app/data-functions/data-functions'
+
+convertText2Objects()
 
 // const data = [
 //     { id: "1", name: "Unread", children: [] },
@@ -28,17 +30,10 @@ import data from '@/app/data/web-dev-bootcamp-objects'
 //   ];
 
 const MainUI = () => {
-
-//   console.log("data", data);
-
-//   const dataArray = data.split("\n");
-
-//   console.log("dataArray", dataArray);
-
   return (
     <>
       <h1>Main UI</h1>
-      <Tree initialData={data} initialOpenState={false}  width={1000}/>
+      {/* <Tree initialData={data} initialOpenState={false}  width={1000}/> */}
       {/* {dataArray.map((line: any, index: any) => {
         return <div key={index}>{line}</div>;
       })} */}
