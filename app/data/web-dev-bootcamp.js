@@ -1,4 +1,5 @@
-const data = `The Complete 2024 Web Development Bootcamp
+const data = 
+`The Complete 2024 Web Development Bootcamp
   Section 01: Front-End Web Development
     001. What You'll Get in This Course | 3min
     002. Download the Course Syllabus | 1min
