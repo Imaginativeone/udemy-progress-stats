@@ -17,10 +17,27 @@ const data =
       },
       {
         id: "C0S02V000", name: "Section 02: Introduction to HTML", children: []
+        //   Section 02: Introduction to HTML
+        //     010. A Note About 2023 Course Updates | 1min
+        //     011. What is HTML? | 4min
+        //     012. How to Download the Course Resources | 3min
+        //     013. HTML Heading Elements | 14min
+        //     014. HTML Paragraph Elements | 9min
+        //     015. Self Closing Tags | 12min
+        //     016. [Project] Movie Ranking | 6min
+        //     017. How to Ace this Course | 1min
       },
       {
         id: "C0S03V000", name: "Section 03: Text", children: 
         [
+          //   Section 03: Intermediate HTML
+          //     018. The List Element | 11min
+          //     019. Nesting and Indentation | 14min
+          //     020. Anchor Elements | 11min
+          //     021. Image Elements | 8min
+          //     022. [Project] Birthday Invite | 4min
+          //     023. Tip from Angela - Habit Building with the Calendar Trick | 3min
+          //     024. Get Access to the Monthly App Brewery Newsletter | 1min
           { id: "C0S03V001", name: "Text", children: [] },
         ]
       },
@@ -84,23 +101,6 @@ const data =
 
 export default data
 
-//   Section 02: Introduction to HTML
-//     010. A Note About 2023 Course Updates | 1min
-//     011. What is HTML? | 4min
-//     012. How to Download the Course Resources | 3min
-//     013. HTML Heading Elements | 14min
-//     014. HTML Paragraph Elements | 9min
-//     015. Self Closing Tags | 12min
-//     016. [Project] Movie Ranking | 6min
-//     017. How to Ace this Course | 1min
-//   Section 03: Intermediate HTML
-//     018. The List Element | 11min
-//     019. Nesting and Indentation | 14min
-//     020. Anchor Elements | 11min
-//     021. Image Elements | 8min
-//     022. [Project] Birthday Invite | 4min
-//     023. Tip from Angela - Habit Building with the Calendar Trick | 3min
-//     024. Get Access to the Monthly App Brewery Newsletter | 1min
 //   Section 04: Multi-Page Websites
 //     025. Computer File Paths | 19min
 //     026. What are Webpages? | 13min
