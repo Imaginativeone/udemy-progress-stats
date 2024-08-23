@@ -6,21 +6,84 @@ const data =
         [
           { id: "C0S01V001", name: "001. What You'll Get in This Course | 3min", children: [] },
           { id: "C0S01V002", name: "002. Download the Course Syllabus | 1min", children: [] },
+          { id: "C0S01V003", name: "003. Download the 12 Rules to Learn to Code eBook [Latest Edition] | 1min", children: [] }
+          //     004. Download the Required Software | 1min
+          //     005. How Does the Internet Actually Work? | 5min
+          //     006. How Do Websites Actually Work? | 8min
+          //     007. How to Get the Most Out of the Course | 10min
+          //     008. How to Get Help When You're Stuck | 7min
+          //     009. Pathfinder | 2min
         ] 
-      }
+      },
+      {
+        id: "C0S02V000", name: "Section 02: Introduction to HTML", children: []
+      },
+      {
+        id: "C0S03V000", name: "Section 03: Text", children: 
+        [
+          { id: "C0S03V001", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0S04VNN1", name: "Section 04: Text", children: 
+        [
+          { id: "C0S04VNN2", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0S05VNN1", name: "Section 05: Text", children: 
+        [
+          { id: "C0S05VNN2", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0S06VNN1", name: "Section 06: Text", children: 
+        [
+          { id: "C0S06VNN2", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0S07VNN1", name: "Section 07: Text", children: 
+        [
+          { id: "C0S07VNN2", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0S08VNN3", name: "Section 08", children: 
+        [
+          { id: "C0S08VNN4", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0S09VNN5", name: "Section 09", children: 
+        [
+          { id: "C0S09VNN6", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0S10VNN7", name: "Section 10", children: 
+        [
+          { id: "C0SNNVNN8", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0SNNVNN9", name: "Section Name", children: 
+        [
+          { id: "C0SNNVN10", name: "Text", children: [] },
+        ]
+      },
+      {
+        id: "C0SNNVN11", name: "Section Name", children: 
+        [
+          { id: "C0SNNVN12", name: "Text", children: [] },
+        ]
+      },
     ] 
   },
 ]
 
 export default data
 
-//     003. Download the 12 Rules to Learn to Code eBook [Latest Edition] | 1min
-//     004. Download the Required Software | 1min
-//     005. How Does the Internet Actually Work? | 5min
-//     006. How Do Websites Actually Work? | 8min
-//     007. How to Get the Most Out of the Course | 10min
-//     008. How to Get Help When You're Stuck | 7min
-//     009. Pathfinder | 2min
 //   Section 02: Introduction to HTML
 //     010. A Note About 2023 Course Updates | 1min
 //     011. What is HTML? | 4min

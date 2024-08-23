@@ -38,7 +38,7 @@ const MainUI = () => {
   return (
     <>
       <h1>Main UI</h1>
-      <Tree initialData={data} width={600}/>
+      <Tree initialData={data} initialOpenState={false}  width={1000}/>
       {/* {dataArray.map((line: any, index: any) => {
         return <div key={index}>{line}</div>;
       })} */}
