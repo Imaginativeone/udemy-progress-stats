@@ -10,7 +10,7 @@ const courseArray = convertText2Objects(data)
 // console.log('courseArray', courseArray)
 
 const obj = convertSplitLineToObject(courseArray)
-console.log('obj', obj)
+// console.log('obj', obj)
 
 const MainUI = () => {
   return (
