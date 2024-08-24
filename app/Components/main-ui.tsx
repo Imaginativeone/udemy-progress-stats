@@ -1,10 +1,36 @@
 "use client";
 
 import { Tree } from 'react-arborist'
-import { convertText2Objects } from '@/app/data-functions/data-functions'
+import { convertText2Objects, processLineData } from '@/app/data-functions/data-functions'
+
+import data from "@/app/data/web-dev-bootcamp";
 import courseData from '@/app/data/web-dev-bootcamp-objects'
 
-convertText2Objects()
+const courseArray = convertText2Objects(data)
+// console.log('courseArray', courseArray)
+
+const processedLines = courseArray.map((line:any) => {
+  const processedLine = processLineData(line)
+  console.log('processedLine', processedLine)
+})
+
+// console.log('data', data)
+// console.log('courseArray', courseArray)
+
+const MainUI = () => {
+  return (
+    <>
+      <h1>Main UI</h1>
+      {/* <Tree initialData={data} initialOpenState={false}  width={1000}/> */}
+      <Tree initialData={courseData} initialOpenState={false}  width={1000}/>
+      {/* {dataArray.map((line: any, index: any) => {
+        return <div key={index}>{line}</div>;
+      })} */}
+    </>
+  );
+};
+
+export default MainUI;
 
 // const data = [
 //     { id: "1", name: "Unread", children: [] },
@@ -28,18 +54,3 @@ convertText2Objects()
 //       ],
 //     },
 //   ];
-
-const MainUI = () => {
-  return (
-    <>
-      <h1>Main UI</h1>
-      {/* <Tree initialData={data} initialOpenState={false}  width={1000}/> */}
-      <Tree initialData={courseData} initialOpenState={false}  width={1000}/>
-      {/* {dataArray.map((line: any, index: any) => {
-        return <div key={index}>{line}</div>;
-      })} */}
-    </>
-  );
-};
-
-export default MainUI;
