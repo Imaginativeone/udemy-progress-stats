@@ -8,5 +8,19 @@ export function convertText2Objects(data) {
 }
 
 export function processLineData(line) {
-  return line
+  const splitLine = getSplitLine(line)
+  const objLine   = convertSplitLineToObject(splitLine)
+  return splitLine
+}
+
+const getSplitLine = (line) => {
+  return line.split("  ")
+}
+
+const convertSplitLineToObject = (lineArray) => {
+  lineArray.map((line) => {
+    console.log('line', line, lineArray.length)
+  })
+
+  console.log('GRIBBIT', lineArray[lineArray.length-1]);
 }
