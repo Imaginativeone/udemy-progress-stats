@@ -1,7 +1,7 @@
 "use client";
 
 import { Tree } from 'react-arborist'
-import { convertText2Objects, processLineData } from '@/app/data-functions/data-functions'
+import { convertText2Objects, processLineData, convertSplitLineToObject } from '@/app/data-functions/data-functions'
 
 import data from "@/app/data/web-dev-bootcamp";
 import courseData from '@/app/data/web-dev-bootcamp-objects'
@@ -9,13 +9,8 @@ import courseData from '@/app/data/web-dev-bootcamp-objects'
 const courseArray = convertText2Objects(data)
 // console.log('courseArray', courseArray)
 
-const processedLines = courseArray.map((line:any) => {
-  const processedLine = processLineData(line)
-  console.log('processedLine', processedLine)
-})
-
-// console.log('data', data)
-// console.log('courseArray', courseArray)
+const obj = convertSplitLineToObject(courseArray)
+console.log('obj', obj)
 
 const MainUI = () => {
   return (
